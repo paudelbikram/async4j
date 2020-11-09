@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/async4j.iml" filepath="$PROJECT_DIR$/async4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compile-time-warning/compile-time-warning-and-error.iml" filepath="$PROJECT_DIR$/compile-time-warning/compile-time-warning-and-error.iml" />
+    </modules>
+  </component>
+</project>

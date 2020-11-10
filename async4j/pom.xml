@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 	<groupId>com.async4j</groupId>
     <artifactId>async4j</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1.0</version>
 
 
 

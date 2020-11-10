@@ -5,7 +5,8 @@ import java.util.concurrent.ExecutionException;
 
 public final class Await
 {
-    public static<T> T await(final CompletableFuture<T> completableFuture ) throws ExecutionException, InterruptedException {
+    public static<T> T await(final CompletableFuture<T> completableFuture ) throws ExecutionException, InterruptedException
+    {
         return completableFuture.get();
     }
 }

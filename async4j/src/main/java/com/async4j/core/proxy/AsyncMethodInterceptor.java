@@ -25,13 +25,19 @@ public class AsyncMethodInterceptor implements InvocationHandler
         boolean isMethodAsync = doesAsyncAnnotationExist(method);
         if (isMethodAsync)
         {
-            CompletableFuture<?> completableFuture = CompletableFuture.supplyAsync(()->{
-                try {
+            CompletableFuture<?> completableFuture = CompletableFuture.supplyAsync(()->
+            {
+                try
+                {
                     return method.invoke(implementation, args);
-                } catch (IllegalAccessException e) {
+                }
+                catch (IllegalAccessException e)
+                {
                     e.printStackTrace();
                     return new Exception(e);
-                } catch (InvocationTargetException e) {
+                }
+                catch (InvocationTargetException e)
+                {
                     e.printStackTrace();
                     return new Exception(e);
                 }
@@ -71,5 +77,6 @@ public class AsyncMethodInterceptor implements InvocationHandler
         }
         return false;
     }
+
 
 }

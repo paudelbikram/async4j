@@ -4,27 +4,36 @@ import com.async4j.core.Async;
 
 import java.util.concurrent.TimeUnit;
 
-public class ConcreteImpl implements AbstractInterface {
+public class ConcreteImpl implements AbstractInterface
+{
     @Override
-    public int asyncInt(boolean wait) {
+    public int asyncInt(boolean wait)
+    {
         System.out.println("int: Preparing to run time consuming task that takes about least 10 seconds.");
-        try {
+        try
+        {
             TimeUnit.SECONDS.sleep(10);
             System.out.println("int: Finished time consuming task.");
             return 10;
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e)
+        {
             e.printStackTrace();
         }
         return 0;
     }
 
     @Override
-    public void asyncVoid(boolean wait) {
+    public void asyncVoid(boolean wait)
+    {
         System.out.println("void: Preparing to run time consuming task that takes about least 10 seconds.");
-        try {
+        try
+        {
             TimeUnit.SECONDS.sleep(10);
             System.out.println("void: Finished time consuming task.");
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e)
+        {
             e.printStackTrace();
         }
     }

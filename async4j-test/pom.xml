@@ -6,7 +6,7 @@
 
 	<groupId>com.async4j</groupId>
 	<artifactId>async4j-test</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1.0</version>
 
 
 	<build>
@@ -25,7 +25,7 @@
         <dependency>
             <groupId>com.async4j</groupId>
             <artifactId>async4j</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>1.1.0</version>
         </dependency>
     </dependencies>
 

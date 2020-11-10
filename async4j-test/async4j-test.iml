@@ -11,6 +11,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.async4j:async4j:1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.async4j:async4j:1.1.0" level="project" />
   </component>
 </module>
